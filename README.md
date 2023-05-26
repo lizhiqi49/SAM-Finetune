@@ -21,14 +21,6 @@ There are three versions of released SAM model: `sam-vit-base`, `sam-vit-large` 
 
 You can specify one of them as the base SAM model for mask generation and fine-tuning in the scripts, such as, `facebook/sam-vit-base`. Or you can download the model to your host.
 
-For more details please refer to huggingface's official documentation
-
-This repository use pretrained SAM model supported in library `transformers`, you can get access to the pretrained model on `huggingface-hub`.
-
-There are three versions of released SAM model: `sam-vit-base`, `sam-vit-large` and `sam-vit-huge`. They are named according to their number of parameters.
-
-You can specify one of them as the base SAM model for mask generation and fine-tuning in the scripts, such as, `facebook/sam-vit-base`. Or you can download the model to your host.
-
 For more details please refer to [huggingface's official documentation](https://huggingface.co/docs/transformers/main/en/model_doc/sam)
 
 
