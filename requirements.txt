@@ -1,0 +1,12 @@
+numpy
+monai
+imageio<2.28.0,>=2.26.0
+matplotlib
+opencv-python
+tqdm
+torch>=1.8
+torchvision>=0.9.1
+huggingface-hub
+diffusers
+transformers @ git+https://github.com/huggingface/transformers.git
+
