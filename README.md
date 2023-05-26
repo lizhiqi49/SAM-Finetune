@@ -31,11 +31,17 @@ In the project directory, you can use the mask generation tool `mask_generation.
 
 When running the script, this is how it works:
 
-Step 1. The image will be displayed in an opencv window, you should custom the bounding box which indicates the region of interest where you want to perform segmentation by sliding your mouse. You can repeatly select the bounding box until you double-press `ENTER` on your keyboard;
+Step1. The image will be displayed in an opencv window, you should custom the bounding box which indicates the region of interest where you want to perform segmentation by sliding your mouse. You can repeatly select the bounding box until you double-press `ENTER` on your keyboard;
 
-Step2. Then you need to pick those keypoints within the bbox to give the model more exact conditions. Use left button of your mouse to tell the model where you want the segmentation result to contain and right button for opposite. When finished, press `q` on your keyboard to exit.
+![step1](./figs/step1.png)
+
+Step2. Then you need to pick those keypoints within the bbox to give the model more exact conditions. Use left button of your mouse to tell the model where you want the segmentation result to contain (green triangles) and right button for opposite (blue crosses). When finished, press `q` on your keyboard to exit.
+
+![step2](./figs/step2.png)
 
 Step3. The model will generate masks based on all your provided prompts. When it finished, three masked images will be displayed and you should choose the one you are most satisfied with by inputing its index (1/2/3) in your command line.
+
+![step3](./figs/step3.png)
 
 Step4. Finally, the mask and ROI will be saved on your configured output directory.
 
